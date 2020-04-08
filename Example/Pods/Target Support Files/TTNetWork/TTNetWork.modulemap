@@ -1,0 +1,6 @@
+framework module TTNetWork {
+  umbrella header "TTNetWork-umbrella.h"
+
+  export *
+  module * { export * }
+}

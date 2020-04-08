@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TTNetWork_Example' do
+  pod 'TTNetWork', :path => '../'
+
+  target 'TTNetWork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

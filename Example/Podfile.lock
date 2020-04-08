@@ -1,0 +1,16 @@
+PODS:
+  - TTNetWork (0.1.0)
+
+DEPENDENCIES:
+  - TTNetWork (from `../`)
+
+EXTERNAL SOURCES:
+  TTNetWork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TTNetWork: 77e2e3ffd714bbf26b4df53266f36496e480649c
+
+PODFILE CHECKSUM: 518d6dd2cf32268a3b525a9f442ccddaf133a735
+
+COCOAPODS: 1.7.2

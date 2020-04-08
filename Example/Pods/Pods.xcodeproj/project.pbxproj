@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A07B8DECB9A1A70335816AD84823559 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 168951B21618A761327A36C3E4048B22 /* ReplaceMe.m */; };
+		260FA213A7C39AB865EAC0791410B9E7 /* TTNetWork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2A1A51CB05B526D7A5FA19A44D142 /* TTNetWork-dummy.m */; };
+		2C7E0C43A4BB589D165F9ED99C0056A2 /* Pods-TTNetWork_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B8609A0822BF4F0DB4DE52DF493CD0 /* Pods-TTNetWork_Tests-dummy.m */; };
+		39E3C4E7EBE57DB434941AE3405560E7 /* Pods-TTNetWork_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A8D0B95508BD5B02A80F4BCA0A6DF2 /* Pods-TTNetWork_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E4A053354667266717E6DCABFC36434 /* TTNetWork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2477385E5ED4D2D173F438677176B505 /* TTNetWork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959EFC70993F809D9F08B6F69E142277 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A8E98CC35998FE097299239F0ED83BCE /* Pods-TTNetWork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630D7393C0657AD90DEC631539131AF /* Pods-TTNetWork_Example-dummy.m */; };
+		CDBC3D07E8E3909AE64990C3A64AB479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D79E0E80AD3BCF135125939C6981A13D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EDEBAF301AFB2BACE0D1537688E21A32 /* Pods-TTNetWork_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9E46FC462274B15EAB5945264B32FC /* Pods-TTNetWork_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1639B275DC42421B6F4E2E94D09F1AFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 022C2B3DD3E66FB27447C3B40FAF2D0F;
+			remoteInfo = "Pods-TTNetWork_Example";
+		};
+		A9D36A5E85112DE233DCCC0E0C70B00A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 403C1C6BBE9D54BF234451755EA4DEE5;
+			remoteInfo = TTNetWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F9E46FC462274B15EAB5945264B32FC /* Pods-TTNetWork_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTNetWork_Example-umbrella.h"; sourceTree = "<group>"; };
+		15B8609A0822BF4F0DB4DE52DF493CD0 /* Pods-TTNetWork_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTNetWork_Tests-dummy.m"; sourceTree = "<group>"; };
+		168951B21618A761327A36C3E4048B22 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TTNetWork/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		2337BE7620CD60BA7CD59D711B63547C /* Pods-TTNetWork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTNetWork_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2477385E5ED4D2D173F438677176B505 /* TTNetWork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTNetWork-umbrella.h"; sourceTree = "<group>"; };
+		31E37B309C7D56D17DEDB08F2C275213 /* Pods-TTNetWork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTNetWork_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		344B602519C8C6E273E2A24602468970 /* Pods-TTNetWork_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTNetWork_Tests-Info.plist"; sourceTree = "<group>"; };
+		3FF223B08E34E154E32685C402B72E07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4740C4F2F1C0DF8A1185725D141BF2E4 /* Pods_TTNetWork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTNetWork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB0AC0CF4E8B4B3786223E12B0EE9BA /* TTNetWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTNetWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		541A259543D61FAE24B668FEC3DB9417 /* TTNetWork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TTNetWork-Info.plist"; sourceTree = "<group>"; };
+		54840B0C6CE6220FC90D80E1C5A1D965 /* TTNetWork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTNetWork.xcconfig; sourceTree = "<group>"; };
+		54AB908AF6A72E5145F0ABA4B4CCDAFD /* Pods-TTNetWork_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTNetWork_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60D67AD05795956610D45E68C629D666 /* Pods-TTNetWork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTNetWork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D8B98FC9DB74186EB9AD7955CAD387F /* Pods-TTNetWork_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTNetWork_Example-Info.plist"; sourceTree = "<group>"; };
+		71E73361119E9D26C2983E1C0B1EF82A /* Pods-TTNetWork_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTNetWork_Example.modulemap"; sourceTree = "<group>"; };
+		77C33966115409EDD5E958038BDFDB74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7A2947E85EF5FC7B1AE2ADEE39F449B5 /* Pods-TTNetWork_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTNetWork_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8630D7393C0657AD90DEC631539131AF /* Pods-TTNetWork_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTNetWork_Example-dummy.m"; sourceTree = "<group>"; };
+		871F3C904E5B2AFBF17A10ADA6AA155C /* Pods_TTNetWork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTNetWork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		974F6CD56EA1FC244653301E65479560 /* Pods-TTNetWork_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTNetWork_Tests.modulemap"; sourceTree = "<group>"; };
+		9827CBB552764791FB321A5BEAAFD1E2 /* Pods-TTNetWork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTNetWork_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A03E14EC0DD6E173F33EB41A1546A03B /* Pods-TTNetWork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTNetWork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC022E5E013BE7D852378AB970A9098E /* Pods-TTNetWork_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTNetWork_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C30D3E96C79AFD7EC3DF6B55ED733065 /* TTNetWork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTNetWork.modulemap; sourceTree = "<group>"; };
+		C7C2A1A51CB05B526D7A5FA19A44D142 /* TTNetWork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTNetWork-dummy.m"; sourceTree = "<group>"; };
+		D7778B4B3DE145B9C6813822A7294542 /* TTNetWork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TTNetWork.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		D7A8D0B95508BD5B02A80F4BCA0A6DF2 /* Pods-TTNetWork_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTNetWork_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E1EA5E1D939E8C40C7D5D8BB79B125A4 /* Pods-TTNetWork_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTNetWork_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F0DB6F9053EF31D74DB1B8D3677D545F /* TTNetWork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTNetWork-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08D5270FAD34A47C6A4BC9511BA117FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBC3D07E8E3909AE64990C3A64AB479 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5380AED2149D518F515AFAFE1C9E12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79E0E80AD3BCF135125939C6981A13D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17A082546D9E0E56A69BA7C5ABDF955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959EFC70993F809D9F08B6F69E142277 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40FBB1726FD585A9FC8041AEE33DA85B /* Pods-TTNetWork_Example */ = {
+			isa = PBXGroup;
+			children = (
+				71E73361119E9D26C2983E1C0B1EF82A /* Pods-TTNetWork_Example.modulemap */,
+				AC022E5E013BE7D852378AB970A9098E /* Pods-TTNetWork_Example-acknowledgements.markdown */,
+				7A2947E85EF5FC7B1AE2ADEE39F449B5 /* Pods-TTNetWork_Example-acknowledgements.plist */,
+				8630D7393C0657AD90DEC631539131AF /* Pods-TTNetWork_Example-dummy.m */,
+				E1EA5E1D939E8C40C7D5D8BB79B125A4 /* Pods-TTNetWork_Example-frameworks.sh */,
+				6D8B98FC9DB74186EB9AD7955CAD387F /* Pods-TTNetWork_Example-Info.plist */,
+				0F9E46FC462274B15EAB5945264B32FC /* Pods-TTNetWork_Example-umbrella.h */,
+				31E37B309C7D56D17DEDB08F2C275213 /* Pods-TTNetWork_Example.debug.xcconfig */,
+				9827CBB552764791FB321A5BEAAFD1E2 /* Pods-TTNetWork_Example.release.xcconfig */,
+			);
+			name = "Pods-TTNetWork_Example";
+			path = "Target Support Files/Pods-TTNetWork_Example";
+			sourceTree = "<group>";
+		};
+		61487627ACDFE9D631DE3B979C6E229C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				77C33966115409EDD5E958038BDFDB74 /* LICENSE */,
+				3FF223B08E34E154E32685C402B72E07 /* README.md */,
+				D7778B4B3DE145B9C6813822A7294542 /* TTNetWork.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9663DCB1C4C624509831D901BB59C339 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2C18DD3C01F3A98D3C826534C509D6F /* TTNetWork */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A2C18DD3C01F3A98D3C826534C509D6F /* TTNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				168951B21618A761327A36C3E4048B22 /* ReplaceMe.m */,
+				61487627ACDFE9D631DE3B979C6E229C /* Pod */,
+				F690ACE5D0CC26FB2025BC3E5EADAB96 /* Support Files */,
+			);
+			name = TTNetWork;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C3FEAD82CAD3A50AB2AADC6413BF9908 /* Pods-TTNetWork_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				974F6CD56EA1FC244653301E65479560 /* Pods-TTNetWork_Tests.modulemap */,
+				54AB908AF6A72E5145F0ABA4B4CCDAFD /* Pods-TTNetWork_Tests-acknowledgements.markdown */,
+				A03E14EC0DD6E173F33EB41A1546A03B /* Pods-TTNetWork_Tests-acknowledgements.plist */,
+				15B8609A0822BF4F0DB4DE52DF493CD0 /* Pods-TTNetWork_Tests-dummy.m */,
+				344B602519C8C6E273E2A24602468970 /* Pods-TTNetWork_Tests-Info.plist */,
+				D7A8D0B95508BD5B02A80F4BCA0A6DF2 /* Pods-TTNetWork_Tests-umbrella.h */,
+				60D67AD05795956610D45E68C629D666 /* Pods-TTNetWork_Tests.debug.xcconfig */,
+				2337BE7620CD60BA7CD59D711B63547C /* Pods-TTNetWork_Tests.release.xcconfig */,
+			);
+			name = "Pods-TTNetWork_Tests";
+			path = "Target Support Files/Pods-TTNetWork_Tests";
+			sourceTree = "<group>";
+		};
+		C85F1BAA3A1162094C8891A8ABD203C5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40FBB1726FD585A9FC8041AEE33DA85B /* Pods-TTNetWork_Example */,
+				C3FEAD82CAD3A50AB2AADC6413BF9908 /* Pods-TTNetWork_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9663DCB1C4C624509831D901BB59C339 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D7A72D733A7B9AE094448D4D27201375 /* Products */,
+				C85F1BAA3A1162094C8891A8ABD203C5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7A72D733A7B9AE094448D4D27201375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				871F3C904E5B2AFBF17A10ADA6AA155C /* Pods_TTNetWork_Example.framework */,
+				4740C4F2F1C0DF8A1185725D141BF2E4 /* Pods_TTNetWork_Tests.framework */,
+				4CB0AC0CF4E8B4B3786223E12B0EE9BA /* TTNetWork.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F690ACE5D0CC26FB2025BC3E5EADAB96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C30D3E96C79AFD7EC3DF6B55ED733065 /* TTNetWork.modulemap */,
+				54840B0C6CE6220FC90D80E1C5A1D965 /* TTNetWork.xcconfig */,
+				C7C2A1A51CB05B526D7A5FA19A44D142 /* TTNetWork-dummy.m */,
+				541A259543D61FAE24B668FEC3DB9417 /* TTNetWork-Info.plist */,
+				F0DB6F9053EF31D74DB1B8D3677D545F /* TTNetWork-prefix.pch */,
+				2477385E5ED4D2D173F438677176B505 /* TTNetWork-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TTNetWork";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		262B6E4E4C3E5BCB3933ADF690286957 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4A053354667266717E6DCABFC36434 /* TTNetWork-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A9A0146D52E7C5A24E03B40A82A3709 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E3C4E7EBE57DB434941AE3405560E7 /* Pods-TTNetWork_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1BD7C37FE36C4560974FA617A87E1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEBAF301AFB2BACE0D1537688E21A32 /* Pods-TTNetWork_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		022C2B3DD3E66FB27447C3B40FAF2D0F /* Pods-TTNetWork_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F77CD7D373577F83A3AB051D7B58C53 /* Build configuration list for PBXNativeTarget "Pods-TTNetWork_Example" */;
+			buildPhases = (
+				5B1BD7C37FE36C4560974FA617A87E1E /* Headers */,
+				60B582D3B88EF794FC5CA1EFF3EE7DD0 /* Sources */,
+				6D5380AED2149D518F515AFAFE1C9E12 /* Frameworks */,
+				FBAEC44F0C725AD2CA85161731379AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				165BBE67EB3542325539739A74BDA905 /* PBXTargetDependency */,
+			);
+			name = "Pods-TTNetWork_Example";
+			productName = "Pods-TTNetWork_Example";
+			productReference = 871F3C904E5B2AFBF17A10ADA6AA155C /* Pods_TTNetWork_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		403C1C6BBE9D54BF234451755EA4DEE5 /* TTNetWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 126D910F81C580C8568F561D0AD9441B /* Build configuration list for PBXNativeTarget "TTNetWork" */;
+			buildPhases = (
+				262B6E4E4C3E5BCB3933ADF690286957 /* Headers */,
+				403B3B74EA628DAF381CCFAC2EF270F2 /* Sources */,
+				D17A082546D9E0E56A69BA7C5ABDF955 /* Frameworks */,
+				0B3EEC7ADEAB67181A5BD09C766DD129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTNetWork;
+			productName = TTNetWork;
+			productReference = 4CB0AC0CF4E8B4B3786223E12B0EE9BA /* TTNetWork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DCB87B3C71B63745CA5AB2AD069DE728 /* Pods-TTNetWork_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F8849BE000C3B6AA827516237AE267 /* Build configuration list for PBXNativeTarget "Pods-TTNetWork_Tests" */;
+			buildPhases = (
+				3A9A0146D52E7C5A24E03B40A82A3709 /* Headers */,
+				34037C84F6C7F5F271AABF4F21403403 /* Sources */,
+				08D5270FAD34A47C6A4BC9511BA117FC /* Frameworks */,
+				B090BC1F5DCBF3EE6081E13837F62820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B02700855BD7F8E935AB509FB00FF16B /* PBXTargetDependency */,
+			);
+			name = "Pods-TTNetWork_Tests";
+			productName = "Pods-TTNetWork_Tests";
+			productReference = 4740C4F2F1C0DF8A1185725D141BF2E4 /* Pods_TTNetWork_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D7A72D733A7B9AE094448D4D27201375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				022C2B3DD3E66FB27447C3B40FAF2D0F /* Pods-TTNetWork_Example */,
+				DCB87B3C71B63745CA5AB2AD069DE728 /* Pods-TTNetWork_Tests */,
+				403C1C6BBE9D54BF234451755EA4DEE5 /* TTNetWork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B3EEC7ADEAB67181A5BD09C766DD129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B090BC1F5DCBF3EE6081E13837F62820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAEC44F0C725AD2CA85161731379AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34037C84F6C7F5F271AABF4F21403403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7E0C43A4BB589D165F9ED99C0056A2 /* Pods-TTNetWork_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403B3B74EA628DAF381CCFAC2EF270F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A07B8DECB9A1A70335816AD84823559 /* ReplaceMe.m in Sources */,
+				260FA213A7C39AB865EAC0791410B9E7 /* TTNetWork-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B582D3B88EF794FC5CA1EFF3EE7DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8E98CC35998FE097299239F0ED83BCE /* Pods-TTNetWork_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		165BBE67EB3542325539739A74BDA905 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTNetWork;
+			target = 403C1C6BBE9D54BF234451755EA4DEE5 /* TTNetWork */;
+			targetProxy = A9D36A5E85112DE233DCCC0E0C70B00A /* PBXContainerItemProxy */;
+		};
+		B02700855BD7F8E935AB509FB00FF16B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TTNetWork_Example";
+			target = 022C2B3DD3E66FB27447C3B40FAF2D0F /* Pods-TTNetWork_Example */;
+			targetProxy = 1639B275DC42421B6F4E2E94D09F1AFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BE0680E9B455FA46D4885C1D763FF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31E37B309C7D56D17DEDB08F2C275213 /* Pods-TTNetWork_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTNetWork_Example/Pods-TTNetWork_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTNetWork_Example/Pods-TTNetWork_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		31C733C8BE6B6622F076F77287EC6FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54840B0C6CE6220FC90D80E1C5A1D965 /* TTNetWork.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTNetWork/TTNetWork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTNetWork/TTNetWork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTNetWork/TTNetWork.modulemap";
+				PRODUCT_MODULE_NAME = TTNetWork;
+				PRODUCT_NAME = TTNetWork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4058849BD5DF0D7A681BE63C55E02223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54840B0C6CE6220FC90D80E1C5A1D965 /* TTNetWork.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTNetWork/TTNetWork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTNetWork/TTNetWork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTNetWork/TTNetWork.modulemap";
+				PRODUCT_MODULE_NAME = TTNetWork;
+				PRODUCT_NAME = TTNetWork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41C4C585D964B645AE743FA16ED49345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2337BE7620CD60BA7CD59D711B63547C /* Pods-TTNetWork_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTNetWork_Tests/Pods-TTNetWork_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTNetWork_Tests/Pods-TTNetWork_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		61A99EC4EB34700BFC63339FC2B74287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D67AD05795956610D45E68C629D666 /* Pods-TTNetWork_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTNetWork_Tests/Pods-TTNetWork_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTNetWork_Tests/Pods-TTNetWork_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E147067C92C23E4939E417E5C60B99B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9827CBB552764791FB321A5BEAAFD1E2 /* Pods-TTNetWork_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTNetWork_Example/Pods-TTNetWork_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTNetWork_Example/Pods-TTNetWork_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		126D910F81C580C8568F561D0AD9441B /* Build configuration list for PBXNativeTarget "TTNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C733C8BE6B6622F076F77287EC6FA7 /* Debug */,
+				4058849BD5DF0D7A681BE63C55E02223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F8849BE000C3B6AA827516237AE267 /* Build configuration list for PBXNativeTarget "Pods-TTNetWork_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A99EC4EB34700BFC63339FC2B74287 /* Debug */,
+				41C4C585D964B645AE743FA16ED49345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F77CD7D373577F83A3AB051D7B58C53 /* Build configuration list for PBXNativeTarget "Pods-TTNetWork_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE0680E9B455FA46D4885C1D763FF0B /* Debug */,
+				E147067C92C23E4939E417E5C60B99B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
