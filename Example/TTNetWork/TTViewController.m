@@ -7,6 +7,9 @@
 //
 
 #import "TTViewController.h"
+#import "TTNetEngine.h"
+#import "TTNewsRequest.h"
+#import "TTNewsResponse.h"
 
 @interface TTViewController ()
 
@@ -14,16 +17,21 @@
 
 @implementation TTViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    TTNewsRequest *requestBean = [[TTNewsRequest alloc] init];
+    TTNewsResponse *responseBean = [[TTNewsResponse alloc] init];
+    [[TTNetEngine sharedInstance] excuteWithRequestBean:requestBean
+                                           responseBean:responseBean
+                                              successed:^(id requestDomainBean, id respondDomainBean,BOOL dataFromCache) {
+        NSLog(@"requestDomainBean -- >%@ \n respondDomainBean -- >%@",requestDomainBean,((TTNewsResponse*)respondDomainBean).responseObject);
+        
+    }
+                                                 failed:^(id requestDomainBean, id respondDomainBean, NSError *error) {
+        NSLog(@"error -- > %@ = ",error);
+    }];
+    
 }
 
 @end

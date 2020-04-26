@@ -22,6 +22,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		79F33E782455CA7800D150E8 /* TTNewsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F33E772455CA7800D150E8 /* TTNewsRequest.m */; };
+		79F33E7B2455CACF00D150E8 /* TTNewsCachePolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F33E7A2455CACF00D150E8 /* TTNewsCachePolicy.m */; };
+		79F33E7E2455CB2D00D150E8 /* TTNewsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F33E7D2455CB2D00D150E8 /* TTNewsResponse.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A13C076DA78C4FE7D1907E28 /* Pods_TTNetWork_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F66A59D70DB91798C6A1E25 /* Pods_TTNetWork_Example.framework */; };
 /* End PBXBuildFile section */
@@ -60,11 +63,17 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79F33E762455CA7800D150E8 /* TTNewsRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTNewsRequest.h; sourceTree = "<group>"; };
+		79F33E772455CA7800D150E8 /* TTNewsRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTNewsRequest.m; sourceTree = "<group>"; };
+		79F33E792455CACF00D150E8 /* TTNewsCachePolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTNewsCachePolicy.h; sourceTree = "<group>"; };
+		79F33E7A2455CACF00D150E8 /* TTNewsCachePolicy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTNewsCachePolicy.m; sourceTree = "<group>"; };
+		79F33E7C2455CB2D00D150E8 /* TTNewsResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTNewsResponse.h; sourceTree = "<group>"; };
+		79F33E7D2455CB2D00D150E8 /* TTNewsResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTNewsResponse.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA9F2D293CDFA442A550136D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BACE1A898EED6F5FF33ECC2E /* Pods-TTNetWork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTNetWork_Example.release.xcconfig"; path = "Target Support Files/Pods-TTNetWork_Example/Pods-TTNetWork_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C4115AAB154102B1BE0193FF /* Pods-TTNetWork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTNetWork_Tests.release.xcconfig"; path = "Target Support Files/Pods-TTNetWork_Tests/Pods-TTNetWork_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F123F48BBA81FF5265F9117D /* TTNetWork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TTNetWork.podspec; path = ../TTNetWork.podspec; sourceTree = "<group>"; };
+		F123F48BBA81FF5265F9117D /* TTNetWork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TTNetWork.podspec; path = ../TTNetWork.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F3BFC66C63DC421999825CBB /* Pods-TTNetWork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTNetWork_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TTNetWork_Tests/Pods-TTNetWork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDB808BF7A413167CB6B680E /* Pods_TTNetWork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTNetWork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -134,9 +143,15 @@
 			children = (
 				6003F59C195388D20070C39A /* TTAppDelegate.h */,
 				6003F59D195388D20070C39A /* TTAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* TTViewController.h */,
 				6003F5A6195388D20070C39A /* TTViewController.m */,
+				79F33E762455CA7800D150E8 /* TTNewsRequest.h */,
+				79F33E772455CA7800D150E8 /* TTNewsRequest.m */,
+				79F33E7C2455CB2D00D150E8 /* TTNewsResponse.h */,
+				79F33E7D2455CB2D00D150E8 /* TTNewsResponse.m */,
+				79F33E792455CACF00D150E8 /* TTNewsCachePolicy.h */,
+				79F33E7A2455CACF00D150E8 /* TTNewsCachePolicy.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -346,11 +361,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TTNetWork_Example/Pods-TTNetWork_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/TTNetWork/TTNetWork.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTNetWork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -365,8 +384,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* TTAppDelegate.m in Sources */,
+				79F33E782455CA7800D150E8 /* TTNewsRequest.m in Sources */,
 				6003F5A7195388D20070C39A /* TTViewController.m in Sources */,
+				79F33E7E2455CB2D00D150E8 /* TTNewsResponse.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				79F33E7B2455CACF00D150E8 /* TTNewsCachePolicy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

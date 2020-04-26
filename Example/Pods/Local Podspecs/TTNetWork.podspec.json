@@ -1,22 +1,30 @@
 {
   "name": "TTNetWork",
-  "version": "0.1.0",
-  "summary": "A short description of TTNetWork.",
+  "version": "1.0",
+  "summary": "TTNetWork网络请求封装类",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/chenqg365/TTNetWork",
+  "homepage": "https://github.com/heng66/TTNetWork",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "chenqg365": "chenqg3721@163.com"
+    "heng66": "chenqg3721@gmail.com"
   },
   "source": {
-    "git": "https://github.com/chenqg365/TTNetWork.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/heng66/TTNetWork.git",
+    "tag": "1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TTNetWork/Classes/**/*"
+  "source_files": "TTNetWork/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "YYCache": [
+
+    ]
+  }
 }
